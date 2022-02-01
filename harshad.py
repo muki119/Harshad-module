@@ -41,7 +41,6 @@ class harshad():
               startnum += 1
           if (len(self._harshadarr) - 1) == (sn):
             return self._harshadarr[sn]
-            break
 
     
   @staticmethod # these static methods can do without instantiation eg harshad.isHarshad(x) instead of harshad(x).isHarshad()
